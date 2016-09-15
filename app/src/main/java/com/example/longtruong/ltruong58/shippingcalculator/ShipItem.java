@@ -20,7 +20,7 @@ public class ShipItem {
         mWeight = 0;
         mBaseCost = BASE_COST;
         mAddedCost = 0;
-        mTotalCost = BASE_COST;
+        mTotalCost = 0;
     }
 
     public ShipItem(int weight, double addedCost, double totalCost) {

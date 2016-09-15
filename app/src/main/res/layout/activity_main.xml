@@ -9,7 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.longtruong.ltruong58.shippingcalculator.MainActivity"
     android:id="@+id/shippingRelativeLayout"
-    android:background="@drawable/shipping_background">
+    android:background="@drawable/shipping_background"
+    android:colorPrimary="@color/material_blue_grey_800"
+    android:colorPrimaryDark="@color/material_blue_grey_900">
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,18 +35,20 @@
         android:selectAllOnFocus="true"
         android:textColor="#000000"
         android:textSize="30sp"
-        android:textAlignment="center">
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="@string/weight_input_hint">
             <requestFocus/>
     </EditText>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/note_textview"
         android:id="@+id/noteTextView"
         android:layout_below="@+id/weightEditText"
         android:layout_centerHorizontal="true"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:text="@string/note_textview" />
 
     <TextView
         android:layout_width="wrap_content"

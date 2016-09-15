@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_value_cost">0 VND</string>
+    <string name="label_added_cost">Phí thêm:</string>
+    <string name="app_name">Tính phí vận chuyển</string>
+    <string name="label_base_cost">Phí căn ban̉:</string>
+    <string name="label_total_cost">Tổng chi phí</string>
+    <string name="note_textview">(theo ounces)</string>
+    <string name="title_textview">Khối lựơng món hàng</string>
+    <string name="weight_input_hint">Ghi ở đây</string>
+</resources>
